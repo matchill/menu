@@ -2,52 +2,50 @@ body{
     background-image: url(./imgs/hookah-lounge.webp);
     background-position: center;
     color: white;
+    text-align: center;
 }
 .back-color{
-    padding: 3% 10%;
+    padding-top: 5%;
     background-color: rgba(27, 27, 27, 0.358);
 }
-header{
-    text-align: center;
-    font-weight: 800;
-}
 header > .logo{
-    margin-top: 15px;
     width: 100px;
     height: 100px;
 }
-header > h1{
-    font-size: 36px;
+h1, h2{
+    font-size: 30px;
+    font-weight: 800;
     margin: 5px 0 15px 0;
 }
-.logo{
-    width: 60px;
-    height: 60px;
-    padding: 0 10px 0 10px;
-    border-radius: 50%;
+h2{
+    color:orange;
 }
-main{
-    max-width: 500px;
+.logo-g{
+    display: flex;
+    width: 85%;
     margin: auto;
 }
-main > .items{
-    width: 90%;
+.logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+.items{
+    width: 80%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.88);
     opacity: 0.8;
     border: double grey 10px;
-    text-align: center;
+    padding: 20px 0;
     margin-bottom: 20px;
-    padding-bottom: 15px;
     box-sizing: border-box;
 }
-.items > h2{
-    padding: 25px 0 10px 0px;
-    font-size: 24px;
-    color:orange;
-    font-weight: 800;
-}
-.items > p{
+p{
     padding-bottom: 10px;
 }
 .solo-pic{
@@ -56,5 +54,22 @@ main > .items{
 }
 footer > p{
     text-align: center;
-    margin-bottom: 20px;
+    margin: 15px 0;
+}
+@media screen and (min-width: 500px){
+    .logo-g{
+        width: 75%;
+    }
+    main{
+        max-width: 500px;
+        margin: auto;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    .items:hover{
+        border: double silver 10px;
+        opacity:1.0;
+    }
 }
