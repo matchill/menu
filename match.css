@@ -7,18 +7,24 @@ body{
     padding: 3% 10%;
     background-color: rgba(27, 27, 27, 0.358);
 }
-.logo{
-    width: 60px;
-    height: 60px;
-    padding: 10px 15px 0 15px;
-}
 header{
     text-align: center;
     font-weight: 800;
 }
+header > .logo{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
 header > h1{
     font-size: 36px;
-    margin: 5px 0 10px 0;
+    margin: 5px 0 15px 0;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    padding: 0 10px 0 10px;
+    border-radius: 50%;
 }
 main{
     max-width: 500px;
@@ -46,6 +52,7 @@ main > .items{
 }
 .solo-pic{
     width: 90%;
+    border-radius: 4px;
 }
 footer > p{
     text-align: center;
