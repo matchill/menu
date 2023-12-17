@@ -5,12 +5,12 @@ body{
 }
 .back-color{
     padding: 3% 10%;
-    background-color: rgba(27, 27, 27, 0.531);
+    background-color: rgba(27, 27, 27, 0.358);
 }
 .logo{
     width: 60px;
     height: 60px;
-    padding: 0 20px;
+    padding: 10px 15px 0 15px;
 }
 header{
     text-align: center;
@@ -21,32 +21,33 @@ header > h1{
     margin: 5px 0 10px 0;
 }
 main{
-    max-width: 760px;
+    max-width: 500px;
     margin: auto;
 }
 main > .items{
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.88);
-    opacity: 0.7;
+    opacity: 0.8;
     border: double grey 10px;
     text-align: center;
-    margin-bottom: 30px;
-    padding: 0 0 30px 0;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
     box-sizing: border-box;
 }
 .items > h2{
-    padding: 20px 0px;
+    padding: 25px 0 10px 0px;
     font-size: 24px;
     color:orange;
     font-weight: 800;
 }
 .items > p{
-    padding: 0 0 20px 0;
+    padding-bottom: 10px;
 }
 .solo-pic{
-    width: 70%;
+    width: 90%;
 }
 footer > p{
     text-align: center;
+    margin-bottom: 30px;
 }
